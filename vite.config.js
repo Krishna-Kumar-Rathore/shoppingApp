@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/shopingCart/', // Must match your GitHub repository name EXACTLY
+  base: '', // Must match your GitHub repository name EXACTLY
 });

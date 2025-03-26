@@ -10,11 +10,11 @@ import { Toaster } from 'react-hot-toast'; // ✅ Import Toaster
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
       <Provider store={store}>
+    <BrowserRouter>
         <Toaster position="top-right" reverseOrder={false} /> {/* ✅ Add Toaster */}
         <App />
-      </Provider>
     </BrowserRouter>
+      </Provider>
   </StrictMode>
 );
