@@ -6,7 +6,9 @@ import React from "react";
 // import 'react-toastify/dist/ReactToastify.css';
 
 const Product = ({ product }) => {
-  const { cart } = useSelector((state) => state);
+  // const { cart } = useSelector((state) => state);
+  const cart = useSelector((state) => state.cart); // ✅ optimized
+
   const dispatch = useDispatch();
 
   const addToCart = () => {

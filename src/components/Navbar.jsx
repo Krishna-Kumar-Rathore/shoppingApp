@@ -5,7 +5,8 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
 
-  const {cart} = useSelector((state) => state)
+  const cart = useSelector((state) => state.cart); // ✅ optimized
+
 
 
   return (
