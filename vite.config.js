@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '', // Must match your GitHub repository name EXACTLY
+  base: '/shoppingApp', // ✅ Set base to your repo name
 });
